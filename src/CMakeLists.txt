@@ -18,3 +18,6 @@ add_library(
 add_executable(directoryTraverserUnix directoryTraversalUnix/directoryTraverser.h directoryTraversalUnix/directoryTraverser.cpp)
 add_executable(directoryTraversalUnix directoryTraversalUnix/directoryTraversal.cpp)
 target_link_libraries(directoryTraversalUnix directoryTraverserUnixLib)
+
+# Disk info Win
+add_executable(diskInfoWin diskInfoWin/diskInfo.cpp)
