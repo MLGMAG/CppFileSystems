@@ -21,3 +21,6 @@ target_link_libraries(directoryTraversalUnix directoryTraverserUnixLib)
 
 # Disk info Win
 add_executable(diskInfoWin diskInfoWin/diskInfo.cpp)
+
+# Directory traversal Win
+add_executable(directoryTraversalWin directoryTraversalWin/directoryTraversal.cpp)
